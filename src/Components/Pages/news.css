@@ -1,0 +1,52 @@
+.MuiCard-root.newscard {
+  background-color: white;
+  color: #7a7a7a;
+  border-radius: 30px;
+}
+.newscard {
+  height: 550px;
+  width: 450px;
+  margin-bottom: 80px;
+  padding: 1rem;
+}
+
+.newsimg {
+  width: 468px;
+  height: 400px;
+  border-radius: 30px;
+  padding: 10px 10px 0 10px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 1px;
+}
+
+.item {
+  min-height: 100px;
+  background-color: #eee;
+}
+.newscard p {
+  margin-left: 0px;
+  padding: 10px 10px 0 10px;
+  font-size: 20px;
+  color: #7a7a7a;
+}
+.newscard p1 {
+  padding: 10px 10px 0 10px;
+  font-size: 20px;
+  font-family: Arial;
+  font-weight: 600;
+  color: #015b2f;
+}
+
+@media (min-width: 1000px) {
+  .newscard {
+    height: 400px;
+    width: 50px;
+    margin-bottom: 80px;
+    padding: 1rem;
+  }
+
+}
